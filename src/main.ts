@@ -12,7 +12,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Weather API')
-    .setDescription('API documentation for the Weather App')
+    .setDescription('API for fetching weather data from MongoDB')
     .setVersion('1.0')
     .addTag('weather')
     .build();
