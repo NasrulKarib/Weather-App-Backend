@@ -63,6 +63,7 @@ Fetch weather information for a specific city.
 - `cityName`(string): The name of the city
 #### Responses:
 - 200: Returns weather data for the specified city. Example response:
+  
   ```json
   {
   "cityName": "Kolkata",
@@ -75,6 +76,7 @@ Fetch weather information for a specific city.
   }
   ```
 - 404: City not found. Example response:
+  
   ```json
   {
   "message": "City not found"
